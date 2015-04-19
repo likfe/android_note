@@ -1,4 +1,4 @@
-##Android_Note (Android 开发笔记)
+##Android Note （Android 开发笔记）
 Android 开发笔记博客的GitBook版
 
 ##联系我
