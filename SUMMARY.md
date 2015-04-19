@@ -4,7 +4,9 @@
 
 * [UI界面](UI/README.md)
     * [标题TitleBar](UI/TitleBar)
-       * [标题TitleBar](UI/TitleBar/example1.md)
-    * [Activity切换动画](UI/example2.md)
-* [常用Class](section2/README.md)
-    * [example 1](section2/example1.md)
+       * [标题TitleBar](UI/TitleBar/自定义TitleBar.md)
+    * [Activity切换动画](UI/Activity)
+* [常用Class](class/README.md)
+    * [Toast](class/Toast)
+* [常用function](function/README.md)
+    * [example 1](function/README.md)
