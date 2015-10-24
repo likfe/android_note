@@ -40,8 +40,7 @@ listView.setSelector(new ColorDrawable(Color.TRANSPARENT))；
         android:numColumns="auto_fit"
         android:columnWidth="50dp"
         android:stretchMode="spacingWidth"
-        android:layout_weight="1.0"
-        android:layout_height="0dip"
+        android:layout_height="match_parent"
         android:layout_width="match_parent"/>
  
 <ListView
