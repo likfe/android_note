@@ -23,3 +23,5 @@ bg_item.xml如下：
 </selector>
 ```
 这样的话就可以自定义ListView的按下效果，再也不是讨厌的黄色了
+
+> http://my.oschina.net/nylqd/blog/139185
