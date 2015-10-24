@@ -52,3 +52,5 @@ listView.setSelector(new ColorDrawable(Color.TRANSPARENT))；
 
 当然也可以定制化自己想要的效果。 
 推荐使用方法二，解耦逻辑代码与布局文件。
+
+> http://my.oschina.net/jerikc/blog/125071
