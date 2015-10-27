@@ -93,7 +93,9 @@ Android 系统对于内存管理有自己的一套方法，为了保障系统有
 　　对比看出，在1.0 API中调用setForeground(boolean)只是简单的改变service的状态，用户不会有任何觉察。新API中强制将 notification和改变service状态的动作绑定起来，foreground service会在状态栏显示，而background service不会。 
 　　Remote service controller & binding 
 跨进程调用Service。暂时不研究。 
--------------------------------------------------------
+
+///
+
 如何防止Android应用中的Service被系统回收?         很多朋友都在问，如何防止Android应用中的Service被系统回收？下面简单解答一下。
 
 对于Service被系统回收，一般做法是通过提高优先级可以解决，在AndroidManifest.xml文件中对于intent-filter可以通过android:priority = "1000"这个属性设置最高优先级，1000是最高值，如果数字越小则优先级越低，同时实用于广播，推荐大家如果你的应用很重要，可以考虑通过系统常用intent action来触发。 
