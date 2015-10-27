@@ -4,7 +4,8 @@
 
 * [四大组件](components/README.md)
     * [Service](components/s/README.md)
-       * [ Android Service被关闭后自动重启,解决被异常kill 服务](components/s/Service被关闭后自动重启.md)
+       * [Service被关闭后自动重启,解决被异常kill服务](components/s/Service被关闭后自动重启.md)
+       * [如何让service不被杀死](components/s/如何让service不被杀死.md)
 * [UI界面](UI/README.md)
     * [标题TitleBar](UI/TitleBar/README.md)
        * [自定义标题TitleBar](UI/TitleBar/自定义TitleBar.md)
