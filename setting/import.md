@@ -103,4 +103,5 @@ android {
 
     }
 ```
-快捷键可以设置成eclipse习惯（还是有些快捷键不一样）：
+快捷键可以设置成eclipse习惯（还是有些快捷键不一样）.
+> http://blog.csdn.net/nadiee/article/details/47017137
