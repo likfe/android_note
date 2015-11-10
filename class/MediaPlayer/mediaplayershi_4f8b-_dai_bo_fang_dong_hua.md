@@ -77,3 +77,26 @@ public class MAudioPlayer implements MediaPlayer.OnCompletionListener {
 }
 
 ```
+### 二、定义播放动画 `audio_paly.xml`
+存放位置 ：`/res/drawable/`
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false"
+    >
+    <item
+        android:drawable="@drawable/voice_playing_l1"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/voice_playing_l2"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/voice_playing_l3"
+        android:duration="100"/>
+</animation-list>
+```
+
+
+
+
+
