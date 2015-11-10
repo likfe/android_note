@@ -8,6 +8,7 @@
 
 ### 一、自定义的MAudioPlayer类
 ```java
+package cc.lait.yq.youqun.utils;
 
 import android.content.Context;
 import android.media.MediaPlayer;
@@ -15,9 +16,9 @@ import android.net.Uri;
 import android.util.Log;
 
 /**
- * 音频播放
+ * 聊天页 音频播放
  */
-public class MAudioPlayer {
+public class MAudioPlayer implements MediaPlayer.OnCompletionListener {
     private MediaPlayer mPlayer;
     MCompletion mCompletion;//自定义的回调接口
 
@@ -44,15 +45,7 @@ public class MAudioPlayer {
                     mp.start();
                 }
             });
-
-            mPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-                @Override
-                public void onCompletion(MediaPlayer mp) {
-                    Log.i("--media", "complete");
-                    stop();
-                    mCompletion.Complete();
-                }
-            });
+            mPlayer.setOnCompletionListener(this);
             //事件监听必须在 prepare 之前调用，否则不会响应
             mPlayer.prepareAsync();
         } catch (IllegalStateException e) {
@@ -66,6 +59,13 @@ public class MAudioPlayer {
         if (mPlayer != null && mPlayer.isPlaying()) {
             return true;
         } else return false;
+    }
+
+    @Override
+    public void onCompletion(MediaPlayer mp) {
+        Log.i("--media", "complete");
+        stop();
+        mCompletion.Complete();
     }
 
     //自定义的回调接口
