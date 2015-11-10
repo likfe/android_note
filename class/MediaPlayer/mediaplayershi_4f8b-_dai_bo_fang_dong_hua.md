@@ -65,6 +65,7 @@ public class MAudioPlayer implements MediaPlayer.OnCompletionListener {
     public void onCompletion(MediaPlayer mp) {
         Log.i("--media", "complete");
         stop();
+        //调用自定义的回调
         mCompletion.Complete();
     }
 
