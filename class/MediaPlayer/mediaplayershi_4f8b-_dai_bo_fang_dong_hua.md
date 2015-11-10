@@ -96,7 +96,47 @@ public class MAudioPlayer implements MediaPlayer.OnCompletionListener {
 </animation-list>
 ```
 
+### 三、使用
+下面是我在`ListView`的`Adapter`中的代码段：
+```java
+//仅仅贴出了部分代码，明白意思即可
+vhr2 = new VHR2();
+vhr2.avast = (ImageView) cv.findViewById(R.id.chat_avast_l);
+vhr2.audio = (ImageButton) cv.findViewById(R.id.chat_bt_l);
+                    
+final AnimationDrawable anim = (AnimationDrawable) context.getResources().getDrawable(
+                        R.drawable.audio_play);
+                vhr2.audio.setImageDrawable(anim);
+                final VHR2 finalVhr = vhr2;
+                vhr2.audio.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if (mAudioPlayer.isPlaying()) {
+                            mAudioPlayer.stop();
+                            anim.stop();
+                            finalVhr.audio.setImageDrawable(context.getResources().getDrawable(R.drawable.voice_playing_l1));
+                        } else {
+                            mAudioPlayer.setMCompletion(new MAudioPlayer.MCompletion() {
+                                @Override
+                                public void Complete() {
+                                    Log.i("Complete","---");
+                                    anim.stop();
+                                    finalVhr.audio.setImageDrawable(context.getResources().getDrawable(R.drawable.voice_playing_l1));
+                                }
+                            });
+                            finalVhr.audio.setImageDrawable(anim);
+                            mAudioPlayer.play(context, item.getBody());
+                            anim.start();
+                        }
+                    }
+                });
 
+//定义的ViewHolder
+class VHR2 {
+        ImageView avast;
+        ImageButton audio;
+    }
+```
 
 
 
