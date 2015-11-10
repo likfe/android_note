@@ -19,6 +19,8 @@
        * [Toast大全](class/Toast/Toast大全.md)
    * [AsyncTask](class/AsyncTask/README.md)
        * [调用AsyncTask的excute方法不能立即执行程序的原因分析及改善方案](class/AsyncTask/AsyncTask_excute.md)
+   * [Toast](class/Toast/README.md)
+       * [Toast大全](class/Toast/Toast大全.md)
 * [常用function](function/README.md)
    * [返回事件](function/OnPress/README.md)
        * [OnPress](function/OnPress/Android手动调用返回键.md)
