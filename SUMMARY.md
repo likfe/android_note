@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [项目配置](setting/README.md)
-   * [Eclipse 项目转移到Android Studio遇到的问题](setting/import.md) 
+   * [Eclipse 项目转移到Android Studio遇到的问题](setting/import.md)
 * [四大组件](components/README.md)
    * [Service](components/s/README.md)
        * [Service被关闭后自动重启,解决被异常kill服务](components/s/Service被关闭后自动重启.md)
@@ -22,6 +22,7 @@
    * [MediaPlayer](class/MediaPlayer/README.md)
        * [Android 使用`MediaPlayer`开发时抛`IllegalStateException`](class/MediaPlayer/Android使用MediaPlayer开发时抛IllegalStateException.md)
        * [MediaPlayer播放网络音频.md](class/MediaPlayer/MediaPlayer播放网络音频.md)
+       * MediaPlayer实例-带播放动画
 * [常用function](function/README.md)
    * [返回事件](function/OnPress/README.md)
        * [OnPress](function/OnPress/Android手动调用返回键.md)
