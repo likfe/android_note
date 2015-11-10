@@ -100,6 +100,9 @@ public class MAudioPlayer implements MediaPlayer.OnCompletionListener {
 下面是我在`ListView`的`Adapter`中的代码段：
 ```java
 //仅仅贴出了部分代码，明白意思即可
+MAudioPlayer mAudioPlayer = new MAudioPlayer();
+
+
 vhr2 = new VHR2();
 vhr2.avast = (ImageView) cv.findViewById(R.id.chat_avast_l);
 vhr2.audio = (ImageButton) cv.findViewById(R.id.chat_bt_l);
