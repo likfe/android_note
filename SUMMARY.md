@@ -21,7 +21,7 @@
        * [调用AsyncTask的excute方法不能立即执行程序的原因分析及改善方案](class/AsyncTask/AsyncTask_excute.md)
    * [MediaPlayer](class/MediaPlayer/README.md)
        * [Android 使用`MediaPlayer`开发时抛`IllegalStateException`](class/MediaPlayer/Android使用MediaPlayer开发时抛IllegalStateException.md)
-       * []()
+       * [MediaPlayer播放网络音频.md](class/MediaPlayer/MediaPlayer播放网络音频.md)
 * [常用function](function/README.md)
    * [返回事件](function/OnPress/README.md)
        * [OnPress](function/OnPress/Android手动调用返回键.md)
