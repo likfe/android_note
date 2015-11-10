@@ -8,7 +8,6 @@
 
 ### 一、自定义的MAudioPlayer类
 ```java
-package cc.lait.yq.youqun.utils;
 
 import android.content.Context;
 import android.media.MediaPlayer;
@@ -16,11 +15,11 @@ import android.net.Uri;
 import android.util.Log;
 
 /**
- * 聊天页 音频播放
+ * 音频播放
  */
 public class MAudioPlayer {
     private MediaPlayer mPlayer;
-    MCompletion mCompletion;
+    MCompletion mCompletion;//自定义的回调接口
 
     public void setMCompletion(MCompletion mCompletion) {
         this.mCompletion = mCompletion;
@@ -69,7 +68,7 @@ public class MAudioPlayer {
         } else return false;
     }
 
-
+    //自定义的回调接口
     public interface MCompletion {
         public void Complete();
     }
