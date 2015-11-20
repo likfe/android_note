@@ -329,3 +329,4 @@ gridview_item.xml如下:
 </LinearLayout>
 ```
 
+> 参考：http://blog.csdn.net/lfdfhl/article/details/9156241?utm_source=tuicool&utm_medium=referral
