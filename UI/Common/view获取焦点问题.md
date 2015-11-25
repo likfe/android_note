@@ -1,7 +1,9 @@
 ## view获取焦点问题
 
-如果listitem里面包括button或者checkbox等控件，默认情况下listitem会失去焦点，导致无法响应item的事件，最常用的解决办法
-是在listitem的布局文件中设置descendantFocusability属性。
+如果`listitem`里面包括`button`或者`checkbox`等控件，默认情况下`listitem`会失去焦点，导致无法响应`item`的事件。
+
+### 方法一
+最常用的解决办法是在`listitem`的布局文件中设置`descendantFocusability`属性。
 item的布局文件：
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -88,3 +90,6 @@ item的布局文件：
 * blocksDescendants：viewgroup会覆盖子类控件而直接获得焦点
 
 我们使用的是第三个。
+
+### 方法二
+在子控件（Button等）里设置`android:focusable="false"`，使得其无法获取焦点，从而不会干扰`item`的点击事件。
