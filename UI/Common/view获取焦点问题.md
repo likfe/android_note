@@ -1,1 +1,1 @@
-## UI/Common/view获取焦点问题.md
+## view获取焦点问题
