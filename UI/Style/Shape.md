@@ -219,3 +219,6 @@ line主要用于画分割线，是通过stroke和size特性组合来实现的，
 ### 结尾
 shape篇就讲到这里了，代码也已经放上github，地址：
 https://github.com/keeganlee/kstyle.git
+
+
+>http://android.jobbole.com/82108/
