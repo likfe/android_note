@@ -10,7 +10,7 @@
 * [UI界面](UI/README.md)
    * [通用属性](UI/Common/README.md)
        * [view获取焦点问题](UI/Common/view获取焦点问题.md)
-       * tabhost英文字母自动变大写问题
+       * [tabhost英文字母自动变大写问题](UI/Common/tabhostying_wen_zi_mu_zi_dong_bian_da_xie_wen_ti.md)
    * [样式](UI/Style/README.md)
        * [Shape](UI/Style/Shape.md)
    * [标题TitleBar](UI/TitleBar/README.md)
