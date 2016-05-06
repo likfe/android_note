@@ -169,3 +169,5 @@ public class MainActivity extends Activity {
 
 [源码下载](http://download.csdn.net/detail/l448288137/9027067)
 
+> [android 中scrollView顶部图片下拉放大](http://blog.csdn.net/l448288137/article/details/47806321)
+
