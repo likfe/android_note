@@ -165,10 +165,7 @@ public class MainActivity extends Activity {
 去除的方式，在scollView中添加：
 `android:overScrollMode="never"`
 （对部分过滤了该属性的ROM无效，2.3以下的版本没有改属性）
+                
 
-效果图
-
-                          
-
-源码下载
+[源码下载](http://download.csdn.net/detail/l448288137/9027067)
 
