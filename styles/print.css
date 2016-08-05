@@ -1,0 +1,3 @@
+/* CSS for print */
+table thead th{ background: #87bff9; color: #fff;}
+p code,li code { border: none; padding: .2em .4em; color: #F9256C;}
