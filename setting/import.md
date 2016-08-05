@@ -21,7 +21,7 @@
 #### 导入到Android Studio
 
 1. 在Android Studio 中，首先关掉你当前的打开的项目。
-2. 在欢迎界面，点击 \`Import Project\`（注：也是可以直接在菜单选择Import project的）
+2. 在欢迎界面，点击 `Import Project`（注：也是可以直接在菜单选择Import project的）
 3. 选中你在Eclipse中导出的项目，展开目录，点击build.gradle文件，然后OK
 4. 在之后的弹出对话框中，会要求你选择Gradle的配置，选中Use gradle wrapper.\(注：也可以自定义你本机装的Gradle\)
 
