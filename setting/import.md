@@ -44,6 +44,7 @@ Error:Execution failed for task '::packageDebug'.
 > Duplicate files copied in APK META-INF/LICENSE.txt
 File 1: D:\work\libs\httpmime-4.1.3.jar
 File 2: D:\work\libs\ant.jar
+
 ```
 
 **解决方案**：在`build.gradle中android {}`中添加
@@ -109,20 +110,16 @@ android {
         applicationId "com.xxx"
         minSdkVersion 15
         targetSdkVersion 19
-```
 
-```
     sourceSets.main {
         jni.srcDirs = []
         jniLibs.srcDir 'src/main/libs'
     }
-```
 
-```
-.....
+    .....
 
 
-    }
+}
 ```
 
 快捷键可以设置成eclipse习惯（还是有些快捷键不一样）.
